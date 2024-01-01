@@ -5,9 +5,8 @@ import { Blogpost } from "@/types";
 import html from "remark-html";
 import { remark } from "remark";
 
-const postsDirectory = path.join(process.cwd(), "blogs");
-
 export function getSortedPostsData() {
+  const postsDirectory = path.join(process.cwd(), "blogs");
   const fileNames = fs.readdirSync(postsDirectory);
   const allPostsData = fileNames.map((fileName) => {
     // Remove '.md' from the filename
@@ -33,6 +32,7 @@ export function getSortedPostsData() {
 }
 
 export async function getPostData(id: string) {
+  const postsDirectory = path.join(process.cwd(), "blogs");
   const fullPath = path.join(postsDirectory, `${id}.md`);
   const fileContents = fs.readFileSync(fullPath, "utf8");
 
