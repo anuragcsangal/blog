@@ -1,7 +1,5 @@
 import { montserrat } from "@/lib/fonts";
-import getFormattedDate from "@/lib/getFormattedDate";
 import { getSortedPostsData, getPostData } from "@/lib/posts";
-import Link from "next/link";
 import { notFound } from "next/navigation";
 
 export function generateStaticParams() {
