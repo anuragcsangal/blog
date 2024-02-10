@@ -1,11 +1,8 @@
 ---
-title: "Two forms of Pre-rendering"
+title: "Web Development (Title yet to be decided)"
 date: "2024-02-10"
 ---
 
-# Web Development (Title yet to be decided)
-
-### What is Web Development?
 Web Development is a way to develop websites or applications for all the users who are connected by the internet.
 
 Now let's look at what Web is, what web actually is -
